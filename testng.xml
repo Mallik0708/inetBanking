@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="inetBanking">
+         
+  <test name="Guru99 Regression Test" >
+  	<parameter name="browser" value="chrome"/>
+	 <classes>
+	  <!--  <class name="com.inetBanking.testCases.TC_LoginWithSetOfAccounts_003"/>--> 
+	  <class name="com.inetBanking.testCases.TC_AddCustomer_004"/>
+	 </classes>
+   </test>
+</suite>

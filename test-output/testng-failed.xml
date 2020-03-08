@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [inetBanking]">
+  <test thread-count="5" name="Guru99 Regression Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.inetBanking.testCases.TC_CreateGuruAccounts_002">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createAccounts"/>
+          <include name="flushMethod"/>
+        </methods>
+      </class> <!-- com.inetBanking.testCases.TC_CreateGuruAccounts_002 -->
+    </classes>
+  </test> <!-- Guru99 Regression Test(failed) -->
+</suite> <!-- Failed suite [inetBanking] -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="inetBanking" duration-ms="46876" started-at="2020-03-08T08:18:56Z" finished-at="2020-03-08T08:19:43Z">
+    <groups>
+    </groups>
+    <test name="Guru99 Regression Test" duration-ms="46876" started-at="2020-03-08T08:18:56Z" finished-at="2020-03-08T08:19:43Z">
+      <class name="com.inetBanking.testCases.TC_AddCustomer_004">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomer_004@6b143ee9]" name="setUp" is-config="true" duration-ms="259" started-at="2020-03-08T08:18:55Z" finished-at="2020-03-08T08:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.inetBanking.testCases.TC_AddCustomer_004@6b143ee9]" name="setUp" is-config="true" duration-ms="20706" started-at="2020-03-08T08:18:56Z" finished-at="2020-03-08T08:19:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomer_004@6b143ee9]" name="addNewCustomer" duration-ms="24898" started-at="2020-03-08T08:19:16Z" finished-at="2020-03-08T08:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.inetBanking.testCases.TC_AddCustomer_004@6b143ee9]" name="tearDown" is-config="true" duration-ms="1251" started-at="2020-03-08T08:19:41Z" finished-at="2020-03-08T08:19:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewCustomer status=SUCCESS method=TC_AddCustomer_004.addNewCustomer()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomer_004@6b143ee9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushMethod()[pri:0, instance:com.inetBanking.testCases.TC_AddCustomer_004@6b143ee9]" name="flushMethod" is-config="true" duration-ms="3757" started-at="2020-03-08T08:19:43Z" finished-at="2020-03-08T08:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushMethod -->
+      </class> <!-- com.inetBanking.testCases.TC_AddCustomer_004 -->
+    </test> <!-- Guru99 Regression Test -->
+  </suite> <!-- inetBanking -->
+</testng-results>

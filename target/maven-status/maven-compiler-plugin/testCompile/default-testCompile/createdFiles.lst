@@ -1,0 +1,11 @@
+com\inetBanking\testCases\TC_LoginTest_001.class
+com\inetBanking\utilities\ReadConfig.class
+com\inetBanking\testCases\TC_AddCustomer_004.class
+com\inetBanking\pageObjects\SignUpPage.class
+com\inetBanking\testCases\TC_CreateGuruAccounts_002.class
+com\inetBanking\pageObjects\AddCustomerPage.class
+com\inetBanking\testCases\TC_LoginWithSetOfAccounts_003.class
+com\inetBanking\utilities\Screenshots.class
+com\inetBanking\pageObjects\LoginPage.class
+com\inetBanking\utilities\ExcelReading.class
+com\inetBanking\testCases\TestBase.class
